@@ -1,13 +1,10 @@
 language: java
 jdk:
-  - openjdk8
+  - openjdk11
 script: ./mvnw clean install
-<<<<<<< HEAD
 jobs:
   include:
      - stage: Test
        script: ./mvnw clean test
-=======
->>>>>>> 251ca6d76897264503e0af3d71b14f5d6ef99956
 notifications:
   email: dandu.sree20@gmail.com
