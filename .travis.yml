@@ -8,4 +8,4 @@ jobs:
      - stage: Test
         script: ./mvnw clean test
 notifications:
-  email: navyasree068@gmail.com
+  email: dandu.sree20@gmail.com
