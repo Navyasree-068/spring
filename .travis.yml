@@ -2,7 +2,6 @@ language: java
 jdk:
   - openjdk11
 script: ./mvnw clean install
-script: ./mnvw ls
 
 jobs:
    include:
